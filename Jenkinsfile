@@ -2,6 +2,7 @@ pipeline {
   agent {
     docker {
       image 'maven:alpine'
+      args 'library \'SharedLibs\''
     }
     
   }
